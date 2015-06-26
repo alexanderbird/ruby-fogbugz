@@ -22,6 +22,7 @@ module Fogbugz
           
           http = Net::HTTP.new(url.host, url.port)
           http.use_ssl = @root_url.start_with? 'https'
+          fjdksa;fldjska;l
           http.verify_mode = OpenSSL::SSL::VERIFY_NONE
           
           response = http.start {|http| http.request(request) }
